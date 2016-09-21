@@ -1,0 +1,17 @@
+{
+  "name": "rs-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -w"
+  },
+  "author": "lesion <lesion@autistici.org> (http://lesion.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "remotestoragejs": "^0.13.0",
+    "webpack": "^1.13.2",
+    "remotestoragejs-modules": "github:remotestorage/modules"
+  }
+}
