@@ -11,7 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "remotestoragejs": "^0.13.0",
-    "webpack": "^1.13.2",
-    "remotestoragejs-modules": "github:remotestorage/modules"
+    "remotestoragejs-modules": "github:remotestorage/modules",
+    "tv4": "^1.2.7",
+    "webpack": "^1.13.2"
   }
 }
