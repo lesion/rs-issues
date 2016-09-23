@@ -1,5 +1,6 @@
 // require remotestoragejs
 require('remotestoragejs/release/stable/remotestorage.amd.js')
+window.tv4 = require('tv4')
 
 var rs = new RemoteStorage()
 rs.displayWidget()
