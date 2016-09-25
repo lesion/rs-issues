@@ -10,8 +10,9 @@
   "author": "lesion <lesion@autistici.org> (http://lesion.github.io/)",
   "license": "ISC",
   "devDependencies": {
-    "remotestoragejs": "^0.13.0",
+    "remotestoragejs": "remotestorage/remotestorage.js#feature/949-noglobal",
+    "remotestorage-module-bookmarks": "lesion/remotestorage-module-bookmarks",
     "webpack": "^1.13.2",
-    "remotestoragejs-modules": "github:remotestorage/modules"
+    "xmlhttprequest": "^1.8.0"
   }
 }
