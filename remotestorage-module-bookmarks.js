@@ -1,1 +1,0 @@
-node_modules/remotestorage-module-bookmarks/dist/build.js
