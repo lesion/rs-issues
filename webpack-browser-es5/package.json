@@ -12,5 +12,8 @@
     "build": "webpack"
   },
   "author": "lesion <lesion@autistici.org> (http://lesion.github.io/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
 }
