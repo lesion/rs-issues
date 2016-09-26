@@ -10,6 +10,7 @@
   <script src="remotestorage-module-bookmarks.js" type="text/javascript" charset="utf-8"></script>
   <script>
     var rs = new RemoteStorage();
+    rs.access.claim('bookmarks', 'rw');
     rs.displayWidget();
   </script>
   </body>
