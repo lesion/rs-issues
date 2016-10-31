@@ -1,7 +1,6 @@
 // require remotestoragejs
 import RemoteStorage from 'remotestoragejs'
-import Bookmarks from 'remotestorage-module-bookmarks'
-Bookmarks(RemoteStorage)
+import 'remotestorage-widget'
 
 const rs = new RemoteStorage()
 rs.displayWidget()
