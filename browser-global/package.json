@@ -11,5 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lesion <lesion@autistici.org> (http://lesion.github.io/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "remotestorage-widget": "github:remotestorage/remotestorage-widget#feature/no-global"
+  }
 }
