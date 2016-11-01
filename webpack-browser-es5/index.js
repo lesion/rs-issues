@@ -1,5 +1,7 @@
 // require remotestoragejs
 var RemoteStorage = require('remotestoragejs')
+
+require('remotestorage-widget')
 require('remotestorage-module-bookmarks')(RemoteStorage);
 
 var rs = new RemoteStorage()

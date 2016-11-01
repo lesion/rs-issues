@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "remotestorage-module-bookmarks": "git://github.com/lesion/remotestorage-module-bookmarks.git",
-    "remotestoragejs": "git://github.com/remotestorage/remotestorage.js.git#feature/949-noglobal"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
@@ -14,6 +10,9 @@
   "author": "lesion <lesion@autistici.org> (http://lesion.github.io/)",
   "license": "ISC",
   "devDependencies": {
+    "remotestoragejs": "git://github.com/remotestorage/remotestorage.js.git#feature/949-noglobal",
+    "remotestorage-module-bookmarks": "git://github.com/lesion/remotestorage-module-bookmarks.git",
+    "remotestorage-widget": "github:remotestorage/remotestorage-widget#feature/no-global",
     "webpack": "^1.13.2"
   }
 }
