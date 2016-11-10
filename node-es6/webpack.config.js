@@ -3,6 +3,7 @@ module.exports = {
   output: {
     filename: 'bundle.js'
   },
+  target: 'node',
    module: {
     loaders: [
           {
@@ -14,6 +15,5 @@ module.exports = {
               }
           }
       ]
-  },
-  externals: { xmlhttprequest: { umd: 'xmlhttprequest' } }
+  }
 }

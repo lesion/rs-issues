@@ -1,1 +1,1 @@
-node_modules/remotestoragejs/build/build.js
+node_modules/remotestoragejs/release/stable/remotestorage.js

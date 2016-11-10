@@ -1,10 +1,9 @@
 // require remotestoragejs
 import RemoteStorage from 'remotestoragejs'
-import bookmarks from 'remotestorage-module-bookmarks'
 import 'remotestorage-widget'
+import 'remotestorage-module-bookmarks'
 
-bookmarks(RemoteStorage)
-const rs = new RemoteStorage()
+let rs = new RemoteStorage()
 rs.displayWidget()
 
 rs.access.claim('bookmarks','rw')

@@ -5,8 +5,4 @@ module.exports = {
     filename: 'bundle.js'
   },
   externals: { xmlhttprequest: 'XMLHttpRequest'},
-  resolve: {
-    extensions: ['', '.js'],
-    fallback: path.join(__dirname, 'node_modules')
-  }
 }

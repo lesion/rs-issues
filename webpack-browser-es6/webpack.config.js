@@ -4,22 +4,21 @@ module.exports = {
   output: {
     filename: 'bundle.js'
   },
+  devtool: 'source-map',
   resolve: {
     fallback: path.join(__dirname, 'node_modules'),
     // resolve file extensions
-    extensions: ['.js', '', '.vue']
+    extensions: ['.js', '']
   },
-   module: {
-    loaders: [
-          {
-              test: /\.js?$/,
-              exclude: /(node_modules|bower_components)/,
-              loader: 'babel-loader',
-              query: {
-                  presets: ['es2015']
-              }
-          }
-      ]
+  module: {
+    loaders:
+    [
+      {
+        test: /\.js?$/,
+        loader: 'babel?presets=es2015&compact=false',
+        exclude: /node_modules/
+      }
+    ]
   },
   externals: { xmlhttprequest: 'XMLHttpRequest'},
 }
